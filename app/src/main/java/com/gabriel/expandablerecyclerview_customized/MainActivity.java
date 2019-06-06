@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         groupModels = getData();
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.addItemDecoration(new DividerItemDecoration(
                 this,
                 LinearLayoutManager.VERTICAL
